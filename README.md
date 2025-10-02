@@ -66,4 +66,4 @@ server {
 
 # 关于作者
 
-简构 (JianGou) 框架由独立开发者Luoyangan精心打造，持续更新维护，如有疑问或建议，可通过官方网站https://mcyszl.top或QQ群812500721进行交流。
+简构 (JianGou) 框架由独立开发者Luoyangan精心打造，持续更新维护，如有疑问或建议，可通过官方网站 https://mcyszl.top 或 QQ群 812500721 进行交流。
