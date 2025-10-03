@@ -1,6 +1,10 @@
 <?PHP
 require_once __DIR__. '/../../config/.version.php';
-# HMTL页面图标-参数路径要绝对路径，如：/favicon.ico
+/**
+ * 设置HMTL页面图标
+ * @param string $favicon_ico 图标路径 路径要绝对路径，如：/favicon.ico
+ * @return void
+ */
 function favicon_ico($favicon_ico) {
     if (is_array($favicon_ico) || is_object($favicon_ico)) {
         $favicon_icos = $favicon_ico;

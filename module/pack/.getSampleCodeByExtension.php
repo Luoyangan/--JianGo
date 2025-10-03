@@ -1,6 +1,10 @@
 <?php
 require_once __DIR__. '/../../config/.version.php';
-# 根据文件扩展名返回示例代码
+/**
+ * 根据文件扩展名返回示例代码
+ * @param string $extension 文件扩展名
+ * @return string 示例代码
+ */
 function getSampleCodeByExtension($extension) {
     switch (strtolower($extension)) {
         case 'php':

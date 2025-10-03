@@ -1,6 +1,10 @@
 <?php
 require_once __DIR__. '/../../config/.version.php';
-# 格式化数字
+/**
+ * 格式化数字
+ * @param mixed $num 数字
+ * @return string 格式化后的数字
+ */
 function formatNumber($num) {
 	if (!is_numeric($num)) {
 		return '0';
