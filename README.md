@@ -2,7 +2,7 @@
 
 简构 (JianGou) 是一款专注于模块化设计的轻量级PHP开发框架
 
-非常适合刚开始学习PHP的开发者，也适合有一定PHP开发经验的开发者
+非常适合刚开始学习PHP的开发者，也适合有一定PHP开发经验的开发者。
 
 # 项目介绍
 
@@ -30,6 +30,24 @@ page/：页面组件，包括页头、页脚和各类HTML元素
 public/：公共访问目录，包含入口文件和静态资源
 config/：配置文件目录，存储框架关键配置信息
 data/：数据存储目录，包含数据库配置和JSON数据
+```
+
+# 项目配置
+
+请根据实际情况修改 config/.set.php 中的配置信息
+
+配置项说明：
+
+```php
+# 全局使用的数据库类型，可选值：mysql、json
+$db_type = "mysql";
+
+# MySQL 数据库配置
+$db_host = "localhost";
+$db_port = "3306";
+$db_name = "dbname";
+$db_user = "root";
+$db_pass = "123456";
 ```
 
 # Nginx 配置
