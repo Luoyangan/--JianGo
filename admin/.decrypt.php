@@ -1,5 +1,12 @@
 <?php
 require_once __DIR__. '/../config/.version.php';
+/**
+ * 解密并执行加密代码
+ * @param string $encrypted_code 加密的代码字符串
+ * @param string $key_part1 密钥部分1
+ * @param string $key_part2 密钥部分2
+ * @throws Exception 如果解密或执行失败则抛出异常
+ */
 function decrypt_and_run($encrypted_code, $key_part1, $key_part2) {
     $key = 'luoyangan' . $key_part1 . $key_part2;
     
